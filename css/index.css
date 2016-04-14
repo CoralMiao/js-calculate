@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*container begin*/
+
+#container {
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -225px;
+    background: #9dd2ea;
+    background: linear-gradient(#9dd2ea, #8bceec);
+    -moz-border-radius: 3px;
+    -moz-box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    /* Firefox */
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    /* Safari 和 Chrome */
+    border-radius: 3px;
+    box-shadow: 0px 4px #009de4,0px 4px 10px #E7E7E7;
+    /*IE6+*/
+    behavior: url(ie-css3.htc);
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    border: 0;
+}
+
+
+/*calculate screen*/
+
+.cal-screen {
+    height: 85px;
+    line-height: 85px;
+    width: 430px;
+    border: 0;
+    outline: none;
+    font-size: 3em;
+    text-align: right;
+    letter-spacing: 0.2em;
+    background: #7CA8BB;
+    -moz-border-radius: 3px;
+    -moz-box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    /* Firefox */
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    -webkit-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    /* Safari 和 Chrome */
+    border-radius: 3px;
+    box-shadow: inset 0px 4px #638696;
+    text-shadow: 1px 1px 2px #638696;
+    /* Opera , IE6+ */
+    color: #ffffff;
+    behavior: url(ie-css3.htc);
+}
+
+
+/*calculate button*/
+
+td {
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    border: 0;
+    margin: 0 7px 11px 0;
+}
+
+td>input {
+    border: 0;
+    width: 100px;
+    height: 70px;
+    outline: none;
+    font-size: 2em;
+    /*background: pink;*/
+    cursor: pointer;
+    background: white;
+    -moz-border-radius: 3px;
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    /* Firefox */
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    /* Safari 和 Chrome */
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    behavior: url(ie-css3.htc);
+    /* Opera , IE6+ */
+}
+
+td>input:hover {
+    background: #9c89f6;
+    -moz-box-shadow: 0px 4px #6b54d3;
+    -webkit-box-shadow: 0px 4px #6b54d3;
+    box-shadow: 0px 4px #6b54d3;
+    behavior: url(ie-css3.htc);
+    color: white;
+}
+
+td>input:active {
+    -moz-box-shadow: 0px 4px #6b54d3;
+    -webkit-box-shadow: 0px 4px #6b54d3;
+    box-shadow: 0px 0px #6b54d3;
+    height: 66px;
+}
+
+.operator {
+    background: #FFF0F5;
+}
+
+
+/*clear_btn*/
+
+.clear {
+    background: #ff9fa8;
+    -moz-box-shadow: 0px 4px #ff7c87;
+    -webkit-box-shadow: 0px 4px #ff7c87;
+    box-shadow: 0px 4px #ff7c87;
+    color: white;
+}
+
+.clear:hover {
+    background: #f68991;
+    -moz-box-shadow: 0px 4px #d3545d;
+    -webkit-box-shadow: 0px 4px #d3545d;
+    box-shadow: 0px 4px #d3545d;
+    color: white;
+}
+
+.clear:active {
+    top: 4px;
+    -moz-box-shadow: 0px 4px #d3545d;
+    -webkit-box-shadow: 0px 4px #d3545d;
+    box-shadow: 0px 0px #d3545d;
+}
+
+
+/*equal_btn*/
+
+#result {
+    background: #f1ff92;
+    -moz-box-shadow: 0px 4px #9da853;
+    -webkit-box-shadow: 0px 4px #9da853;
+    box-shadow: 0px 4px #9da853;
+    color: #888e5f;
+}
+
+#result:hover {
+    background: #abb850;
+    -moz-box-shadow: 0px 4px #717a33;
+    -webkit-box-shadow: 0px 4px #717a33;
+    box-shadow: 0px 4px #717a33;
+    color: #ffffff;
+}
+
+#result:active {
+    -moz-box-shadow: 0px 4px #717a33;
+    -webkit-box-shadow: 0px 4px #717a33;
+    box-shadow: 0px 0px #717a33;
+    top: 4px;
+}
+
+
+/*container end*/
